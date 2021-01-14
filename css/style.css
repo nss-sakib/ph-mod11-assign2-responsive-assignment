@@ -82,7 +82,7 @@ a:hover {
 }
 
 @media(max-width:767px) {
-    .caption, p, h4 {
+    .caption, .center{
         text-align: center;
     }
     article, p{
