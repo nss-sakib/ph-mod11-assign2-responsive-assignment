@@ -39,11 +39,6 @@ a:hover {
     line-height: 100%;
 }
 
-.half-width {
-    width: 50%;
-    float: left;
-}
-
 .bag-card-footer {
     background-color: white;
     border: 0;
@@ -75,10 +70,6 @@ a:hover {
 .caption {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 3em;
-}
-
-a:hover {
-    color: #76C27E;
 }
 
 @media(max-width:767px) {
