@@ -1,35 +1,35 @@
 * {
     font-family: 'Roboto', sans-serif;
     text-align: justify;
-    color: rgb(0,0,40);
     padding: 0;
     margin: 0;
 }
 
-header, footer, section{
+header, footer, section {
     margin-left: 5%;
     margin-right: 5%;
 }
 
-h4{
-    font-weight: 600;
+h4 {
+    font-weight: 800;
 }
+
 div img {
     width: 100%;
 }
 
-ul{
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-a{
+a {
     color: gray;
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     color: #76C27E;
 }
 
@@ -57,31 +57,50 @@ a:hover{
 }
 
 .tools {
-    width: 75%;
+    width: 50%;
 }
 
 .facilities {
     border-radius: 3%;
     box-shadow: 5px 5px 30px rgb(230, 230, 230);
-    padding: 3%;
+    padding-right: 3%;
     margin: 3%;
 }
 
-.price{
+.price {
     color: #76C27E;
+    font-weight: 800;
 }
 
-.caption{
+.caption {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 3em;
 }
 
-a:hover{
+a:hover {
     color: #76C27E;
 }
 
-@media(max-width:767px){
-    .caption{
+@media(max-width:767px) {
+    .caption, p, h4 {
         text-align: center;
+    }
+    article, p{
+        font-size: 1.25em;
+    }
+    h4{
+        font-size: 1.75em;
+    }
+    .btn {
+        font-size: 200%;
+    }
+    .price{
+        font-size: 300%;
+    }
+    .tools{
+        width: 25%;
+    }
+    .facilities{
+        padding: 5%;
     }
 }
